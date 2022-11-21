@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+
+        // задание №1
+
         int clientOS = 0;
         int Android = 1;
         if (clientOS == 0) {
@@ -10,6 +13,7 @@ public class Main {
             System.out.println("«Установите версию приложения для Android по ссылке».");
         }
 
+        // задание №2
 
         int clientDeviceYear = 2015;
         if (clientDeviceYear > 2015) {
@@ -19,6 +23,8 @@ public class Main {
             System.out.println("Установите обычную версию приложения для iOS по ссылке");
         }
 
+        // задание №3
+
         int year = 2000;
         if (year % 100 == 0 && year % 400 == 0) {
             System.out.println("год является високосным».");
@@ -27,6 +33,8 @@ public class Main {
         } else {
             System.out.println("год не является високосным».");
         }
+
+        // задание №4
 
 
         int deliveryDistance = 95;
@@ -38,6 +46,8 @@ public class Main {
             System.out.println("Потребуется трое суток");
 
         }
+
+        // задание №5
 
         int monthNumber = 6;
         switch (monthNumber) {
